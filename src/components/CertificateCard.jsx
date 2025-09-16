@@ -1,6 +1,8 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
+import './CertificateCard.css';
+
 const CertificateCard = ({ link, issuer, certificateName, imageLink }) => (
     <Card className="mb-3 certificate-card" 
         style={{ 

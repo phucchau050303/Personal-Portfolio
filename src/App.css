@@ -25,3 +25,11 @@
 body {
 	background: #212529;
 }
+
+
+.skill-tab{
+  border: #abb1b6;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+}
