@@ -23,7 +23,7 @@ const Skills = () => (
         <Col md={6} sm={12} className="mb-5 mt-5 d-flex align-items-center justify-content-center flex-column">
             <div className=" skill-tab p-5">
                 <h2 className = "text-center">Programming Languages</h2>
-                <div style = {{height: '140px'}}>
+                <div style = {{height: '200px'}}>
                     <div className="d-flex justify-content-center flex-wrap gap-3 mb-3">
                         <SkillTab skill="C#" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/1200px-C_Sharp_Logo_2023.svg.png" />
                         <SkillTab skill="Python" imageLink="src/assets/python-svgrepo-com.png" />
@@ -56,16 +56,6 @@ const Skills = () => (
             </div>
         </Col>
     </Row>
-    <SkillTab skill="React" imageLink="src/assets/React-icon.svg.png" />
-    <SkillTab skill="react" imageLink="src/assets/React-icon.svg.png" />
-    <SkillTab skill="react" imageLink="src/assets/React-icon.svg.png" />
-    <ul>
-      <li><strong>Frameworks:</strong> .NET, VueJS, ReactJS</li>
-      <li><strong>Programming Languages:</strong> C#, Python, JavaScript, C++</li>
-      <li><strong>Database Systems:</strong> PostgreSQL, MySQL</li>
-      <li><strong>Cloud Technologies:</strong> AWS, Azure</li>
-      <li><strong>Transferable Skills:</strong> Generative AI Usage, Problem Solving, Teamwork, Quick Learner, Time Management, Organisation</li>
-    </ul>
   </section>
 );
 

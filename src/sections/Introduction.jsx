@@ -7,10 +7,20 @@ const Introduction = () => (
   <Container id="about" className="mb-5 fs-5">
     <Row className="align-items-center mb-5">
         <Col md={6} className="text-center mb-5 mt-5">
-            <Image src="src/assets/Avatar.jpeg" 
-            class = "border border-primary rounded-circle" 
-            roundedCircle fluid alt="Profile" 
-            style={{ maxWidth: '270px', boxShadow: '0 4px 24px 0 rgba(180,200,255,0.35)'}} />
+            <Image
+            src="src/assets/Avatar2.jpg"
+            className="rounded-circle"
+            roundedCircle
+            fluid
+            alt="Profile"
+            style={{
+                width: '270px',
+                height: '270px',
+                objectFit: 'cover',
+                objectPosition: 'center 40%',
+                boxShadow: '0 4px 24px 0 rgba(180,200,255,0.35)'
+            }}
+            />
         </Col>
         <Col md={6} className="text-md-start text-sm-center"> 
             <span className='mb-3' style={{fontSize: '3rem', fontWeight: 'bold'}}>Hi, I'm <br/> Peter Hoang Chau</span>

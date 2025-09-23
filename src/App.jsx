@@ -6,7 +6,6 @@ import Container from 'react-bootstrap/Container';
 import Certificate from './sections/Certificate'
 import Education from './sections/Education'
 import Experience from './sections/Experience'
-import Interests from './sections/Interests'
 import Introduction from './sections/Introduction'
 import Projects from './sections/Projects'
 import Skills from './sections/Skills'
@@ -24,7 +23,6 @@ function App() {
       <Education />
       <Projects />
       <Volunteering />
-      <Interests />
     </Container>
   );
 }
