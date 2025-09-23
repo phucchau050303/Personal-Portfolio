@@ -23,7 +23,7 @@ const CustomNavbar = () => (
       <Navbar.Brand className='fs-3' href="#about">Peter Hoang Chau</Navbar.Brand>
       <Navbar.Toggle aria-controls="main-navbar-nav" />
       <Navbar.Collapse id="main-navbar-nav ">
-        <Nav className="me-auto d-flex justify-content-center">
+        <Nav className="m-auto justify-content-center">
           {navItems.map(item => (
             <Nav.Link
               key={item.id}
@@ -38,7 +38,7 @@ const CustomNavbar = () => (
           ))}
         </Nav>
         <Nav className='d-flex align-items-end-md'>
-          <NavLink href="https://www.linkedin.com/in/peter-hoang-chau/" target="_blank" rel="noopener noreferrer">Visit My Personal GitHub</NavLink>
+          <NavLink href="https://www.linkedin.com/in/peter-hoang-chau/" target="_blank" rel="noopener noreferrer">Personal GitHub</NavLink>
         </Nav>  
       </Navbar.Collapse>
     </Container>

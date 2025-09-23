@@ -11,6 +11,7 @@ import Introduction from './sections/Introduction'
 import Projects from './sections/Projects'
 import Skills from './sections/Skills'
 import Volunteering from './sections/Volunteering'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +27,7 @@ function App() {
         <Education />
         <Projects />
       </Container>
+      <Footer />
     </div>
   );
 }
