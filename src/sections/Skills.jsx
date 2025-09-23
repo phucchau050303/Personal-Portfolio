@@ -9,7 +9,7 @@ const Skills = () => (
                 <h2 class = "text-center">Frameworks</h2>
                 <div className="skill-box">
                     <div className="d-flex justify-content-center flex-wrap gap-3 mb-3">
-                        <SkillTab skill="React" imageLink="src/assets/React-icon.svg.png" />
+                        <SkillTab skill="React" imageLink="../asset/React-icon.svg.png" />
                         <SkillTab skill="VueJS" imageLink="src/assets/Vue.js_Logo_2.svg.png" />
                         <SkillTab skill=".NET" imageLink="src/assets/Microsoft_.NET_logo.svg.png" />
                     </div>
