@@ -4,26 +4,22 @@ const Skills = () => (
   <section id="skills" className="mb-5">
     <p className='mb-3 text-center' style={{fontSize: '2.3rem', fontWeight: 'bold'}}>Skills</p>
     <Row>
-        <Col md={6} sm={12} className="mb-5 mt-5 d-flex align-items-center justify-content-center flex-column">
+        <Col lg={6} md={12} sm={12} className="mb-5 mt-5 d-flex align-items-center justify-content-center flex-column">
             <div className=" skill-tab p-5">
                 <h2 class = "text-center">Frameworks</h2>
-                <Row style = {{height: '140px'}}>
-                    <Col xs={6} md={4} className="mb-3 mt-3 mx-auto  d-flex justify-content-center">
+                <div className="skill-box">
+                    <div className="d-flex justify-content-center flex-wrap gap-3 mb-3">
                         <SkillTab skill="React" imageLink="src/assets/React-icon.svg.png" />
-                    </Col>
-                    <Col xs={6} md={4} className=" mb-3 mt-3 d-flex justify-content-center">
                         <SkillTab skill="VueJS" imageLink="src/assets/Vue.js_Logo_2.svg.png" />
-                    </Col>
-                    <Col xs={12} md={4} className=" mb-3 mt-3 d-flex justify-content-center">
                         <SkillTab skill=".NET" imageLink="src/assets/Microsoft_.NET_logo.svg.png" />
-                    </Col>
-                </Row>
+                    </div>
+                </div>
             </div>
         </Col>
-        <Col md={6} sm={12} className="mb-5 mt-5 d-flex align-items-center justify-content-center flex-column">
+        <Col lg={6} md={12} sm={12} className="mb-5 mt-5 d-flex align-items-center justify-content-center flex-column">
             <div className=" skill-tab p-5">
                 <h2 className = "text-center">Programming Languages</h2>
-                <div style = {{height: '200px'}}>
+                <div className="skill-box">
                     <div className="d-flex justify-content-center flex-wrap gap-3 mb-3">
                         <SkillTab skill="C#" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/1200px-C_Sharp_Logo_2023.svg.png" />
                         <SkillTab skill="Python" imageLink="src/assets/python-svgrepo-com.png" />
@@ -39,10 +35,10 @@ const Skills = () => (
         </Col>
     </Row>
     <Row>
-        <Col md={6} sm={12} className="mb-5 mt-5 d-flex align-items-center justify-content-center flex-column">
+        <Col lg={6} md={12} sm={12} className="mb-5 mt-5 d-flex align-items-center justify-content-center flex-column">
             <div className=" skill-tab p-5">
                 <h2 className = "text-center">Cloud and Database</h2>
-                <div style = {{height: '140px'}}>
+                <div className="skill-box">
                     <div className="d-flex justify-content-center flex-wrap gap-3 mb-3">
                         <SkillTab skill="AWS" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/640px-Amazon_Web_Services_Logo.svg.png" />
                         <SkillTab skill="Azure" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png" />
@@ -51,6 +47,24 @@ const Skills = () => (
                     <div className="d-flex justify-content-center flex-wrap gap-3 mt-3 mb-3">
                         <SkillTab skill="PostgreSQL" imageLink="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" />
                         
+                    </div>
+                </div>
+            </div>
+        </Col>
+        <Col lg={6} md={12} sm={12} className="mb-5 mt-5 d-flex align-items-center justify-content-center flex-column">
+            <div className=" skill-tab p-5">
+                <h2 className = "text-center">Other</h2>
+                <div className="skill-box">
+                    <div className="d-flex justify-content-center flex-wrap gap-3 mb-3">
+                        <SkillTab skill="Copilot" imageLink="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Microsoft_Copilot_Icon.svg/1200px-Microsoft_Copilot_Icon.svg.png" />
+                        <SkillTab skill="VSCode" imageLink="https://cdn.freebiesupply.com/logos/thumbs/2x/visual-studio-code-logo.png" />
+                        <SkillTab skill="Git" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png" />            
+                    </div>
+                    <div className="d-flex justify-content-center flex-wrap gap-3 mt-3 mb-3">
+                        <SkillTab skill="Docker" imageLink="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png" />
+                        <SkillTab skill="Figma" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/960px-Figma-logo.svg.png" />
+                        <SkillTab skill="Unity" imageLink="https://cdn.freebiesupply.com/logos/large/2x/unity-69-logo-png-transparent.png" />
+
                     </div>
                 </div>
             </div>

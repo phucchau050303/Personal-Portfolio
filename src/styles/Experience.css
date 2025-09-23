@@ -22,6 +22,7 @@
 .experience-item {
   position: relative;
   margin-bottom: 40px;
+  background: #23272f;
   transition: transform 0.5s cubic-bezier(.4,2,.6,1), box-shadow 0.5s;
   box-shadow: 0 4px 24px 0 rgba(180,200,255,0.15);
   border-radius: 10px;

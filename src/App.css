@@ -33,3 +33,13 @@ body {
   border-style: solid;
   border-radius: 10px;
 }
+
+.skill-box {
+	height: 150px;
+  }
+
+@media (max-width: 992px) {
+  .skill-box {
+	height: auto;
+  }
+}
