@@ -9,9 +9,9 @@ const Skills = () => (
                 <h2 class = "text-center">Frameworks</h2>
                 <div className="skill-box">
                     <div className="d-flex justify-content-center flex-wrap gap-3 mb-3">
-                        <SkillTab skill="React" imageLink="../asset/React-icon.svg.png" />
-                        <SkillTab skill="VueJS" imageLink="src/assets/Vue.js_Logo_2.svg.png" />
-                        <SkillTab skill=".NET" imageLink="src/assets/Microsoft_.NET_logo.svg.png" />
+                        <SkillTab skill="React" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" />
+                        <SkillTab skill="VueJS" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png" />
+                        <SkillTab skill=".NET" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/2048px-Microsoft_.NET_logo.svg.png" />
                     </div>
                 </div>
             </div>
@@ -22,11 +22,11 @@ const Skills = () => (
                 <div className="skill-box">
                     <div className="d-flex justify-content-center flex-wrap gap-3 mb-3">
                         <SkillTab skill="C#" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/1200px-C_Sharp_Logo_2023.svg.png" />
-                        <SkillTab skill="Python" imageLink="src/assets/python-svgrepo-com.png" />
+                        <SkillTab skill="Python" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" />
                         <SkillTab skill="Kotlin" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin_Icon.png/1200px-Kotlin_Icon.png" />            
                     </div>
                     <div className="d-flex justify-content-center flex-wrap gap-3 mt-3 mb-3">
-                        <SkillTab skill="JavaScript" imageLink="src/assets/JavaScript-logo.png" />
+                        <SkillTab skill="JavaScript" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png" />
                         <SkillTab skill="HTML" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" />
                         <SkillTab skill="C++" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" />
                     </div>

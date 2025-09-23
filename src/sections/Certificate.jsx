@@ -10,7 +10,7 @@ const Certificate = () => (
             <CertificateCard
                 link="https://www.dropbox.com/scl/fi/3tnzzitczwzxiv3udop98/Swinburne-Career-Development.jpeg?rlkey=7vj6z7azjuxa7g6bnazday6mo&st=h5x3n8rs&dl=0"
                 issuer="Swinburne University of Technology"
-                imageLink="src/assets/YlBGBBHR_400x400.jpg"
+                imageLink="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHIWBVdlTIeSHaB725y9_Xpco4YN9sAxg7Rw&s"
                 certificateName="Career Development Certificate"
             />
         </Col>
@@ -18,7 +18,7 @@ const Certificate = () => (
             <CertificateCard 
                 link="https://www.hackerrank.com/certificates/1e1d6a4f9ef1"
                 issuer="Hackerrank"
-                imageLink="src/assets/HackerRank_Icon-1000px.png"
+                imageLink="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png"
                 certificateName="C# Basic Certificate"
             />
         </Col>
@@ -26,7 +26,7 @@ const Certificate = () => (
             <CertificateCard 
                 link="https://www.hackerrank.com/certificates/1e1d6a4f9ef1"
                 issuer="Hackerrank"
-                imageLink="src/assets/HackerRank_Icon-1000px.png"
+                imageLink="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png"
                 certificateName="React Basic Certificate"
             />
         </Col>

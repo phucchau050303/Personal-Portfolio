@@ -8,7 +8,7 @@ const Introduction = () => (
     <Row className="align-items-center mb-5">
         <Col md={6} className="text-center mb-5 mt-5">
             <Image
-            src="src/assets/Avatar2.jpg"
+            src="https://i.ibb.co/4RkzXM1C/Avatar2.jpg"
             className="rounded-circle"
             roundedCircle
             fluid
