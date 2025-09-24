@@ -24,8 +24,8 @@ function App() {
         <Certificate />
         <Skills />
         <Experience />
-        <Education />
         <Projects />
+        <Education />
       </Container>
       <Footer />
     </div>

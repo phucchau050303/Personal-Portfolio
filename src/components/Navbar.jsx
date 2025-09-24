@@ -38,7 +38,7 @@ const CustomNavbar = () => (
           ))}
         </Nav>
         <Nav className='d-flex align-items-end-md'>
-          <NavLink href="https://www.linkedin.com/in/peter-hoang-chau/" target="_blank" rel="noopener noreferrer">Personal GitHub</NavLink>
+          <NavLink href="https://github.com/phucchau050303" target="_blank" rel="noopener noreferrer">Personal GitHub</NavLink>
         </Nav>  
       </Navbar.Collapse>
     </Container>

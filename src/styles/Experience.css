@@ -9,9 +9,18 @@
   top: 40px;
   width: 4px;
   height: 95%;
-  background: linear-gradient(180deg, #6a11cb 0%, #2575fc 100%);
+  background: linear-gradient(180deg, #6a11cb, #2575fc, #43e97b, #38f9d7, #fa8bff, #f3e7e9, #6a11cb);
+  background-size: 400% 400%;
   border-radius: 2px;
   z-index: 0;
+  transition: transform 0.2s, box-shadow 0.2s;
+  animation: gradientMove 6s ease-in-out infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 50% 0%; }
+  50% { background-position: 50% 100%; }
+  100% { background-position: 50% 0%; }
 }
 
 .timeline-items {

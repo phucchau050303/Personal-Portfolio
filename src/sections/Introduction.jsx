@@ -35,9 +35,12 @@ const Introduction = () => (
     </Row>
 
     <div className="text-center mt-5">
-        <GradientButton href="https://drive.google.com/file/d/1X4k1YHk3jv5jvUu0F7c3F2Jt8K5Zl5hG/view?usp=sharing">
+        <a href="https://www.dropbox.com/scl/fi/2krnx50zmf2doh1ow8rml/Peter-Hoang-Chau-Software-Engineer.pdf?rlkey=6ubo3cuhjed9kb1sigm1lm0po&st=j1sx0rsz&dl=0" target="_blank">
+        <GradientButton>
             Download My Resume
         </GradientButton>
+        </a>
+
     </div>
 
 
